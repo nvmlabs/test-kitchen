@@ -30,6 +30,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "thor",            "~> 0.18"
 
   gem.add_development_dependency "pry"
+  gem.add_development_dependency "pry-byebug"
+  gem.add_development_dependency "pry-stack_explorer"
 
   gem.add_development_dependency "bundler",   "~> 1.3"
   gem.add_development_dependency "rake"
